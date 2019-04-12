@@ -1,0 +1,21 @@
+Goal- To understand JSX basics
+No React Components are used. Manual data binding is done.
+
+live-server is used for seeing the html changes inside the browser.
+
+Use commands- 
+
+1) yarn install
+2) start babel to watch changes in src/app.js file and convert them => babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch
+3) Install live-server package globally => npm install live-server -g
+4) live-server public (in another terminal window)
+
+-babel
+-webpack
+-sass
+-normalize.css (for resetting browser's default css style setting- that makes your webapp looks almost same(style) on all browsers)
+
+webpack is configured for
+- stage-2 transform class properties
+- devtool- for debugging-to get the exact location of error in the respective file
+- scss(sass) files

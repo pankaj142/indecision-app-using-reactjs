@@ -1,0 +1,32 @@
+.big-button {
+  background: $purple;
+  border: none;
+  border-bottom: 0.6rem solid darken($purple, 10%);
+  color: white;
+  font-size: $l-size;
+  font-weight: bold;
+  width: 100%;
+  margin-bottom: $xl-size;
+  padding: 2.4rem;
+}
+
+.big-button:disabled {
+  opacity: 0.6;
+}
+
+.button {
+  background: $purple;
+  color: white;
+  border: none;
+  border-bottom: 0.3rem solid darkblue($purple, 10%);
+  font-weight: 500;
+  padding: $s-size;
+}
+
+//BEM naming conventions- for block element modifier syntax is 'blockElement--modifierName'
+.button--link {
+  background: none;
+  border: node;
+  color: $off-white;
+  padding: 0;
+}
