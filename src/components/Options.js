@@ -19,6 +19,7 @@ const Options = props => (
     {props.options.map((option, index) => (
       <Option
         key={index}
+        count={index + 1}
         option={option}
         handleRemoveOption={props.handleRemoveOption}
       />
